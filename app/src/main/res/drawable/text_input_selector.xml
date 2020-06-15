@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://stackoverflow.com/questions/34592451/change-size-of-edittext-bottom-border-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/text_input_active" android:state_focused="true"/>
+    <item android:drawable="@drawable/text_input_inactive" android:state_focused="false"/>
+</selector>
